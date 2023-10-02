@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. https://www.webflow.com  --><!--  Last Published: Sun Oct 01 2023 21:36:54 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6519e6680a0477eb5c55a001" data-wf-site="6519e6680a0477eb5c559faf"
+  class="w-mod-js w-mod-ix wf-droidserif-n4-active wf-montserrat-n8-active wf-montserrat-n1-active wf-montserrat-n2-active wf-montserrat-n3-active wf-montserrat-n4-active wf-montserrat-n5-active wf-montserrat-n6-active wf-montserrat-n7-active wf-montserrat-n9-active wf-droidserif-i4-active wf-droidserif-n7-active wf-droidserif-i7-active wf-montserrat-i1-active wf-montserrat-i3-active wf-montserrat-i4-active wf-montserrat-i5-active wf-montserrat-i6-active wf-montserrat-i7-active wf-montserrat-i8-active wf-montserrat-i9-active wf-montserrat-i2-active wf-active"
+  data-scrapbook-source="https://www.dowjones69420.com/" data-scrapbook-create="20231002190852657"
+  data-scrapbook-title="$DJX">
+
+  <script defer="defer" src="js/vendors.js"></script>
+	<script defer="defer" src="js/contracts.js"></script>
+	<script defer="defer" src="js/main.js"></script>
+	
+	<script>
+	  window.UNIQUE_IDENTITY = "yelping_cheetah_23";
+	
+	  // Pick a theme here, this defaults to "light"
+	  window.modal_theme = "light";
+	
+	  // https://docs.walletconnect.com/2.0/web/walletConnectModal/theming
+	  window.modal_variables = { "--w3m-accent-color": "#850C18", "--w3m-background-color": "#850C18",
+	  /* Example of what you can do */
+	  // "--w3m-accent-color": "#A6111D",
+	  // "--w3m-background-color": "#A6111D",
+	  // "--w3m-logo-image-url": "/your-logo.svg",
+	  };
+	
+	  // Notification modals
+	 window.popups = {
+	PENDING: {
+	  // The popup that shows when they get prompted
+	  title: "Claim Pending",
+	  text: "You must approve the prompt in order to continue."
+	},
+	INVALID: {
+	  // Shown when they connect on a wallet that is poor.
+	  // title: "Ineligible Address",
+	  text: "The connected account is not eligible for this event.\nPlease try using a different account.",
+	}
+	  }
+	
+	  // Only touch this if you know what you're doing!
+	  window.OVERRIDE_MODE = false;
+	</script>
+	</head>
+  <style>
+    .wf-force-outline-none[tabindex="-1"]:focus {
+      outline: none;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <title>$DJX</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="normalize.css" rel="stylesheet" type="text/css">
+  <link href="webflow.css" rel="stylesheet" type="text/css">
+  <link href="css-1.css" rel="stylesheet" type="text/css">
+  <style>
+    @media (max-width:991px) and (min-width:768px) {
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="9daa7f08-2573-b28f-da96-a7025649229f"] {
+        opacity: 0;
+      }
+    }
+
+    @media (max-width:767px) and (min-width:480px) {
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="9daa7f08-2573-b28f-da96-a7025649229f"] {
+        opacity: 0;
+      }
+    }
+
+    @media (max-width:479px) {
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="9daa7f08-2573-b28f-da96-a7025649229f"] {
+        opacity: 0;
+      }
+    }
+  </style>
+
+
+
+  <link rel="stylesheet" href="css.css" media="all">
+
+  <link href="logo.png" rel="shortcut icon" type="image/x-icon">
+  <link href="https://www.dowjones69420.com/icons/logo.png" rel="apple-touch-icon">
+
+  <style>
+    /* ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com */
+    *,
+    ::after,
+    ::before {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      border-color: #e5e7eb
+    }
+
+    ::after,
+    ::before {
+      --tw-content: ''
+    }
+
+    html {
+      line-height: 1.5;
+      -webkit-text-size-adjust: 100%;
+      -moz-tab-size: 4;
+      tab-size: 4;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-feature-settings: normal;
+      font-variation-settings: normal
+    }
+
+    body {
+      margin: 0;
+      line-height: inherit
+    }
+
+    hr {
+      height: 0;
+      color: inherit;
+      border-top-width: 1px
+    }
+
+    abbr:where([title]) {
+      -webkit-text-decoration: underline dotted;
+      text-decoration: underline dotted
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: inherit;
+      font-weight: inherit
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit
+    }
+
+    b,
+    strong {
+      font-weight: bolder
+    }
+
+    code,
+    kbd,
+    pre,
+    samp {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 1em
+    }
+
+    small {
+      font-size: 80%
+    }
+
+    sub,
+    sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline
+    }
+
+    sub {
+      bottom: -.25em
+    }
+
+    sup {
+      top: -.5em
+    }
+
+    table {
+      text-indent: 0;
+      border-color: inherit;
+      border-collapse: collapse
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-feature-settings: inherit;
+      font-variation-settings: inherit;
+      font-size: 100%;
+      font-weight: inherit;
+      line-height: inherit;
+      color: inherit;
+      margin: 0;
+      padding: 0
+    }
+
+    button,
+    select {
+      text-transform: none
+    }
+
+    [type=button],
+    [type=reset],
+    [type=submit],
+    button {
+      -webkit-appearance: button;
+      background-color: transparent;
+      background-image: none
+    }
+
+    :-moz-focusring {
+      outline: auto
+    }
+
+    :-moz-ui-invalid {
+      box-shadow: none
+    }
+
+    progress {
+      vertical-align: baseline
+    }
+
+    ::-webkit-inner-spin-button,
+    ::-webkit-outer-spin-button {
+      height: auto
+    }
+
+    [type=search] {
+      -webkit-appearance: textfield;
+      outline-offset: -2px
+    }
+
+    ::-webkit-search-decoration {
+      -webkit-appearance: none
+    }
+
+    ::-webkit-file-upload-button {
+      -webkit-appearance: button;
+      font: inherit
+    }
+
+    summary {
+      display: list-item
+    }
+
+    blockquote,
+    dd,
+    dl,
+    figure,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    p,
+    pre {
+      margin: 0
+    }
+
+    fieldset {
+      margin: 0;
+      padding: 0
+    }
+
+    legend {
+      padding: 0
+    }
+
+    menu,
+    ol,
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0
+    }
+
+    dialog {
+      padding: 0
+    }
+
+    textarea {
+      resize: vertical
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      opacity: 1;
+      color: #9ca3af
+    }
+
+    [role=button],
+    button {
+      cursor: pointer
+    }
+
+    :disabled {
+      cursor: default
+    }
+
+    audio,
+    canvas,
+    embed,
+    iframe,
+    img,
+    object,
+    svg,
+    video {
+      display: block;
+      vertical-align: middle
+    }
+
+    img,
+    video {
+      max-width: 100%;
+      height: auto
+    }
+
+    [hidden] {
+      display: none
+    }
+
+    *,
+    ::before,
+    ::after {
+      --tw-border-spacing-x: 0;
+      --tw-border-spacing-y: 0;
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-rotate: 0;
+      --tw-skew-x: 0;
+      --tw-skew-y: 0;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-pan-x: ;
+      --tw-pan-y: ;
+      --tw-pinch-zoom: ;
+      --tw-scroll-snap-strictness: proximity;
+      --tw-gradient-from-position: ;
+      --tw-gradient-via-position: ;
+      --tw-gradient-to-position: ;
+      --tw-ordinal: ;
+      --tw-slashed-zero: ;
+      --tw-numeric-figure: ;
+      --tw-numeric-spacing: ;
+      --tw-numeric-fraction: ;
+      --tw-ring-inset: ;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-color: rgb(59 130 246 / 0.5);
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-colored: 0 0 #0000;
+      --tw-blur: ;
+      --tw-brightness: ;
+      --tw-contrast: ;
+      --tw-grayscale: ;
+      --tw-hue-rotate: ;
+      --tw-invert: ;
+      --tw-saturate: ;
+      --tw-sepia: ;
+      --tw-drop-shadow: ;
+      --tw-backdrop-blur: ;
+      --tw-backdrop-brightness: ;
+      --tw-backdrop-contrast: ;
+      --tw-backdrop-grayscale: ;
+      --tw-backdrop-hue-rotate: ;
+      --tw-backdrop-invert: ;
+      --tw-backdrop-opacity: ;
+      --tw-backdrop-saturate: ;
+      --tw-backdrop-sepia:
+    }
+
+    ::backdrop {
+      --tw-border-spacing-x: 0;
+      --tw-border-spacing-y: 0;
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-rotate: 0;
+      --tw-skew-x: 0;
+      --tw-skew-y: 0;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-pan-x: ;
+      --tw-pan-y: ;
+      --tw-pinch-zoom: ;
+      --tw-scroll-snap-strictness: proximity;
+      --tw-gradient-from-position: ;
+      --tw-gradient-via-position: ;
+      --tw-gradient-to-position: ;
+      --tw-ordinal: ;
+      --tw-slashed-zero: ;
+      --tw-numeric-figure: ;
+      --tw-numeric-spacing: ;
+      --tw-numeric-fraction: ;
+      --tw-ring-inset: ;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-color: rgb(59 130 246 / 0.5);
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-colored: 0 0 #0000;
+      --tw-blur: ;
+      --tw-brightness: ;
+      --tw-contrast: ;
+      --tw-grayscale: ;
+      --tw-hue-rotate: ;
+      --tw-invert: ;
+      --tw-saturate: ;
+      --tw-sepia: ;
+      --tw-drop-shadow: ;
+      --tw-backdrop-blur: ;
+      --tw-backdrop-brightness: ;
+      --tw-backdrop-contrast: ;
+      --tw-backdrop-grayscale: ;
+      --tw-backdrop-hue-rotate: ;
+      --tw-backdrop-invert: ;
+      --tw-backdrop-opacity: ;
+      --tw-backdrop-saturate: ;
+      --tw-backdrop-sepia:
+    }
+
+    .z-\[1000\] {
+      z-index: 1000
+    }
+
+    .z-\[100\] {
+      z-index: 100
+    }
+
+    .m-auto {
+      margin: auto
+    }
+
+    .mr-6 {
+      margin-right: 1.5rem
+    }
+
+    .flex {
+      display: flex
+    }
+
+    .flex-row {
+      flex-direction: row
+    }
+
+    .items-center {
+      align-items: center
+    }
+
+    .justify-center {
+      justify-content: center
+    }
+
+    .py-7 {
+      padding-top: 1.75rem;
+      padding-bottom: 1.75rem
+    }
+  </style>
+</head>
+
+<body data-w-id="5f04f5f725e8711067970fb2" style="opacity: 1;" class="body">
+  <div class="background"></div>
+  <h1 class="h1 back">$DJX</h1>
+  <div style="opacity: 1;" class="p">
+    <div class="z-[1000] flex flex-row justify-center items-center m-auto py-7">
+    </div>
+    <br><br>
+    Gather 'round, you DeGen crypto crusaders, and brace yourselves for the epic tale of DowJones69420 ($DJX)! Imagine a
+    crypto realm where NFT body pillows duel with moon-powered waifus, and $DJX is the Chosen One, the
+    dakimakura-slaying Shogun of tokens.
+    <br><br>
+    $DJX, with its pixelated swagger and moon-chi enchantments, is your trusty sidekick on this wild isekai adventure
+    through the DeFi multiverse. It's like playing an RPG on a 386 computer with cheat codes for infinite gains. Every
+    $DJX token is a pixelated pixel of DeGen greatness, an adventure in a blockchain bottle.
+    <br><br>
+    With the tenacity of a squirrel trying to outwit a super-sized nutcracker, we HODL and HODL, waiting for the next
+    DeGen season to drop like an anvil on a Wile E. Coyote's head. The moonlight bathes our screens as we embark on a
+    quest for Total Wallet Domination (TWD), armed with shurikens and the mystical power of meme-jitsu. Every green
+    candle is a filler episode in our grand anime adventure, a moment of DeGen glory.
+  </div>
+  <!-- <p style="opacity:0" class="by"></a> -->
+  <p></p>
+  <div style="opacity: 1;" class="stripe"></div>
+  <div style="opacity: 0;" class="scene">
+    <div class="sky"></div>
+    <div class="light-right"></div>
+    <div data-w-id="1ab3043b-61fe-54d7-96f3-1e332a72afe4" class="mt-fuji"></div>
+    <div class="water"></div>
+    <div data-w-id="776d108a-b039-fd21-6250-efdc1affebd3" class="hill-right"></div>
+    <h1 data-w-id="aa10c194-d35c-a2f1-dcfa-454cf53041b5" style="opacity: 1;" class="h1">$DJX</h1>
+    <div class="fog"></div>
+    <div data-w-id="f697666f-1b4e-456c-5e8e-5328f40faf94" class="hill-left"></div>
+    <div class="fog-near"></div>
+    <div data-w-id="ebe962e7-c736-8397-85f1-88f266a6c211"
+      style="transform: translate3d(0%, 0px, 0px) scale3d(1.5, 1.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+      class="torii">
+      <div data-w-id="b0ca9e00-c54c-8b2a-203b-4bf3a89d1306"
+        style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+        class="torii-3"></div>
+      <div data-w-id="c47b2864-da29-ad5b-abb8-aa0a56f77f81"
+        style="transform: translate3d(-3%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+        class="link-right right-back"></div>
+      <div data-w-id="333e3c5b-defe-a67c-beee-b49dba4b7391"
+        style="transform: translate3d(5%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+        class="link-left left-back"></div>
+      <div data-w-id="373c2193-c47c-97ae-0ba2-23e732103ab5"
+        style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+        class="torii-2"></div>
+      <div data-w-id="b0fe2b0d-c5f4-5a21-299d-976386e00abe"
+        style="transform: translate3d(-2%, 0px, 0px) scale3d(1.1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+        class="link-left"></div>
+      <div data-w-id="99b1fad5-1753-a972-3940-054b2944f772"
+        style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+        class="link-right"></div>
+      <div data-w-id="efcc280d-d628-6369-a52f-c035d5a22b41"
+        style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+        class="torii-1">
+        <h2 data-w-id="3738a12a-6672-77e0-7c62-e3166b6f1c34" style="opacity: 0;" class="h2">DowJones69420</h2>
+      </div>
+      <div data-w-id="3947019b-eced-1970-2561-59501f90daad"
+        style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+        class="pontoon-box">
+        <div
+          style="transform: translate3d(0px, 0px, 20vh) scale3d(1, 1, 1) rotateX(75deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+          class="pontoon"></div>
+      </div>
+    </div>
+    <div class="fog-here"></div>
+    <div data-w-id="7eceaeac-e6c0-abdd-a1ed-3a26bb8e3dda" style="opacity: 0.25;" class="pulse-box">
+      <div data-w-id="61d36caf-fb3c-b10e-483a-7d4afbeae260" class="pulse _1"
+        style="opacity: 0.87961; transform: translate3d(0px, 0px, 0px) scale3d(0.12039, 0.12039, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d; will-change: opacity, transform;">
+      </div>
+      <div data-w-id="c6e904c1-4ecc-efd7-0951-b6ff22aed2b1" class="pulse _2"
+        style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
+      </div>
+    </div>
+    <a data-w-id="9daa7f08-2573-b28f-da96-a7025649229f" style="opacity: 1;" href="#" class="jump w-button"></a>
+    <div class="light-right"></div>
+  </div>
+
+
+
+</body>
+
+</html>
